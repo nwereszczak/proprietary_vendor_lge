@@ -285,8 +285,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/lib/camera/titan17x_usecases.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/titan17x_usecases.bin \
     vendor/lge/judypn/proprietary/vendor/lib/hw/camera.sdm845.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm845.so \
     vendor/lge/judypn/proprietary/vendor/lib/hw/vendor.qti.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.1-impl.so \
+    vendor/lge/judypn/proprietary/vendor/lib/lib.com.lge.elvis.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib.com.lge.elvis.so \
     vendor/lge/judypn/proprietary/vendor/lib/libAutoContrast.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAutoContrast.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libCmcPdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libCmcPdaf_tele.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCmcPdaf_tele.so \
     vendor/lge/judypn/proprietary/vendor/lib/libSJVideoNR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSJVideoNR.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSNPE.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libSRIyuv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSRIyuv.so \
+    vendor/lge/judypn/proprietary/vendor/lib/lib_wdr2.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_wdr2.so \
     vendor/lge/judypn/proprietary/vendor/lib/libarcsoft_beauty_picselfie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beauty_picselfie.so \
     vendor/lge/judypn/proprietary/vendor/lib/libarcsoft_dpportraitsegment.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dpportraitsegment.so \
     vendor/lge/judypn/proprietary/vendor/lib/libarcsoft_dualcam_portraitlighting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_portraitlighting.so \
@@ -298,18 +304,30 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/lib/libarcsoft_makeup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_makeup.so \
     vendor/lge/judypn/proprietary/vendor/lib/libarcsoft_picselfie_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_picselfie_algorithm.so \
     vendor/lge/judypn/proprietary/vendor/lib/libbwfocuspeaking.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwfocuspeaking.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libcalibverify.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalibverify.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libcalibverifyW_T.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalibverifyW_T.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
     vendor/lge/judypn/proprietary/vendor/lib/libcinemaeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcinemaeffect.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libdeepportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeepportrait.so \
     vendor/lge/judypn/proprietary/vendor/lib/libdiagjni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiagjni.so \
     vendor/lge/judypn/proprietary/vendor/lib/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libevent_observer.so \
     vendor/lge/judypn/proprietary/vendor/lib/libfilm_emulation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation.so \
     vendor/lge/judypn/proprietary/vendor/lib/libfilm_emulation_symphony.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfilm_emulation_symphony.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libgnustl_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnustl_shared.so \
     vendor/lge/judypn/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/lge/judypn/proprietary/vendor/lib/liblgae_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgae_main.so \
     vendor/lge/judypn/proprietary/vendor/lib/liblgawb_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgawb_main.so \
     vendor/lge/judypn/proprietary/vendor/lib/liblgdnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgdnn.so \
     vendor/lge/judypn/proprietary/vendor/lib/liblghdri.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblghdri.so \
     vendor/lge/judypn/proprietary/vendor/lib/liblgmbms.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgmbms.so \
+    vendor/lge/judypn/proprietary/vendor/lib/liblgsnpeawb.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblgsnpeawb.so \
     vendor/lge/judypn/proprietary/vendor/lib/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_core.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libloc_pla.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_pla.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libloc_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_stub.so \
     vendor/lge/judypn/proprietary/vendor/lib/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblocation_api.so \
     vendor/lge/judypn/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
     vendor/lge/judypn/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
@@ -319,6 +337,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/lib/libpcas_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpcas_vendor.so \
     vendor/lge/judypn/proprietary/vendor/lib/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceLandmarks.so \
     vendor/lge/judypn/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libsymphony-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-1.1.4.so \
+    vendor/lge/judypn/proprietary/vendor/lib/libsymphonypower-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower-1.1.4.so \
     vendor/lge/judypn/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/lge/judypn/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/lge/judypn/proprietary/vendor/lib/vendor.qti.gnss@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1_vendor.so \
@@ -344,6 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
+    vendor/lge/judypn/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
@@ -356,6 +377,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_externalDr.so \
+    vendor/lge/judypn/proprietary/vendor/lib64/libloc_pla.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_pla.so \
+    vendor/lge/judypn/proprietary/vendor/lib64/libloc_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_stub.so \
     vendor/lge/judypn/proprietary/vendor/lib64/liblocation_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocation_api.so \
     vendor/lge/judypn/proprietary/vendor/lib64/liblocationservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice.so \
     vendor/lge/judypn/proprietary/vendor/lib64/liblocationservice_glue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_glue.so \
@@ -365,7 +388,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/judypn/proprietary/vendor/lib64/libpcas_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpcas_vendor.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libscveFaceLandmarks.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceLandmarks.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
+    vendor/lge/judypn/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
+    vendor/lge/judypn/proprietary/vendor/lib64/libsymphony-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-1.1.4.so \
+    vendor/lge/judypn/proprietary/vendor/lib64/libsymphonypower-1.1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphonypower-1.1.4.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/lge/judypn/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
