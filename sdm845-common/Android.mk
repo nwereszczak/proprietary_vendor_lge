@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter judyln judypn,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),sdm845-common)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
